@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    android:background="@color/white_smoke"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/imageRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="8dp"
+            android:clipToPadding="false"
+            android:overScrollMode="never"
+            android:orientation="horizontal" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="30dp"
+            app:cardCornerRadius="20dp"
+            android:backgroundTintMode="multiply">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cardcorner"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- College Vision Section -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/collegeVisionHeading"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="College Vision"
+                            android:textStyle="bold"
+                            android:textSize="25sp"
+                            android:padding="8dp"
+                            android:textColor="#FF5722"/>
+
+                        <TextView
+                            android:id="@+id/collegeVisionContent"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:textSize="15sp"
+                            android:justificationMode="inter_word"
+                            android:text="Transforming our rural-based engineering college into a beacon of technical education with global standards is our paramount ambition. We aspire to cultivate an institute of excellence that not only meets the demands of modern society but also pioneers solutions to its evolving challenges. Rooted in the noble principles of value-based education, our goal is to foster an environment where knowledge is not just a tool for personal advancement but a catalyst for peace and progress. Through our dedication to instilling integrity, innovation, and inclusivity, we aim to shape individuals who are not only proficient in their fields but also committed to making a positive impact on the world. With unwavering dedication and a relentless pursuit of excellence, we strive to be leaders in shaping the future of technical education, while remaining deeply connected to our rural roots and the communities we serve."
+                            android:textColor="@android:color/black"/>
+                    </LinearLayout>
+
+                    <!-- College Mission Section -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/collegeMissionHeading"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="College Mission"
+                            android:textStyle="bold"
+                            android:textSize="25sp"
+                            android:padding="8dp"
+                            android:textColor="#2196F3"/>
+
+                        <TextView
+                            android:id="@+id/collegeMissionContent"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:textSize="15sp"
+                            android:justificationMode="inter_word"
+                            android:textAlignment="viewStart"
+                            android:text="Our vision encompasses building a world-class undergraduate program equipped with comprehensive infrastructure to impart robust theoretical knowledge complemented by cutting-edge skills. In addition, we are dedicated to establishing postgraduate programs in both fundamental and pioneering technologies, fostering an environment conducive to the exploration and nurturing of research endeavors. Our aim is to not only educate but also empower young graduates to become success-oriented entrepreneurs, instilling in them the entrepreneurial spirit and mindset. We prioritize forging strong linkages with industries to facilitate meaningful industry-institute interactions, ensuring our curriculum remains relevant and responsive to the evolving demands of both industry and society. Furthermore, we are committed to offering demand-driven courses tailored to meet the needs of various sectors. Integral to our mission is the inculcation of human values and ethos into our educational framework, fostering the holistic development of our students, thereby preparing them to become socially responsible leaders of tomorrow."
+                            android:textColor="@android:color/black"/>
+                    </LinearLayout>
+
+                    <!-- College History Section -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="College History"
+                            android:textStyle="bold"
+                            android:textSize="25sp"
+                            android:padding="8dp"
+                            android:textColor="#FF5722"/>
+
+                        <TextView
+                            android:id="@+id/collegeHistoryHeading"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:justificationMode="inter_word"
+                            android:text="Rajeev Gandhi Memorial College of Engineering and Technology, Nandyal was inaugurated on 09.03.1996 by Late Sri P.V.Narasimha Rao, the former Prime Minister of India and Sri N.Chandrababu Naidu, the former Chief Minister of Andhra Pradesh. This institute is one of the top engineering colleges of Andhra Pradesh. The institute has got permanent affiliation from JNTUA Anantapuramu. It has been conferred Autonomous status by UGC in 2010 and has upgraded the curriculum and regulations as per the needs of the industry and society from time to time. All the UG eligible Courses in the institute are accredited four times by NBA and recently in Tier-I category. The institute has also got accredited by NAAC with A+ grade (3.54 out of 4.0 CGPA). The institute has been accredited by TCS for placements and training. The institute has DSIR (Ministry of Science and Technology) recognition for the exemption of excise duty for the research equipment procured. It was selected for the World Bank assisted TEQIP-1 for quality improvement. The institute is ISO 9001-2008 certified. The Jawahar Knowledge Center of the institute has been awarded as the best JKC center twice by the Government of Andhra Pradesh for highest campus placements.The Institute offers number of Skill Development Programmes and has been sansctioned the Deen Dayal Upadhaya KAUSHAL Kendra under Ministry of HRD. The institute has been conferred with College with Potential for Excellence (CPE) by UGC, New Delhi in 2016. The institute has been recognized as SIEMENS INC “Technical Skill Development Institute” (TSDI) by Government of Andhra Pradesh in association with APSSDC in 2016, apart from establishing two CM's Skill Centers in 2018. In order to make every student industry ready, pursue higher education and research, there is a constant effort to work in coordination with the alumni – who frequently visits the campus and deliver talks to create awareness about the requirements of the industry and being employable. On a continuous basis this institution is embarking on a journey towards excellence in quality education and research."
+                            android:textAlignment="viewStart"
+                            android:padding="8dp"
+                            android:textSize="15sp"
+                            android:textColor="@android:color/black"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/cardcorner">
+
+                    <!-- Chairman Section -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <!-- Chairman Image and Text -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:id="@+id/chairman_image"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginLeft="5dp"
+                                android:src="@drawable/chairman"
+                                app:shapeAppearanceOverlay="@style/roundedImage"
+                                android:scaleType="centerCrop" />
+
+                            <TextView
+                                android:id="@+id/chairman_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Dr.M.Santhi Ramudu - CHAIRMAN"
+                                android:justificationMode="inter_word"
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="10dp"/>
+                        </LinearLayout>
+
+                        <!-- Chairman Description -->
+                        <TextView
+                            android:id="@+id/chairman_details"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="In 1995 RGMCET was established and started functioning in the campus of The Nandyal Public school. Today it is located in a 50 acre sprawling campus on NH-18 at NANDYAL. It is the dedicated commitment and effort of our Chairman, the man with vision “Vidyarathna” Dr.M.Santhi Ramudu, who started the institution with a motto “EDUCATION FOR PEACE”.
+RGMCET is a road of elegant educational journey, yet path breaking in different dimensions. Dr.M.Santhi Ramudu strived a lot to bring technical education to the people of Rayalaseema. The mission goes on as Santhiram Medical College has been established in the year 2005.
+The secret of this visionary is his humility with his cheerful approach. He is enriching these rural lands with knowledge. As a skilled crafts-man, he utilizes each moment of the day and stands as an apostle of hard work and the living example for the saying ‘HARD WORK NEVER DECEIVES’."
+                            android:textSize="15sp"
+                            android:justificationMode="inter_word"
+                            android:paddingStart="8dp"
+                            android:paddingEnd="8dp"
+                            android:paddingTop="8dp"
+                            android:paddingBottom="8dp"/>
+                    </LinearLayout>
+
+                    <!-- Other Members Section -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <!-- Member 1 -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:id="@+id/member1_image"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                app:shapeAppearanceOverlay="@style/roundedImage"
+                                android:src="@drawable/md"
+                                android:scaleType="centerCrop"/>
+
+                            <TextView
+                                android:id="@+id/member1_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="M.Siva Ram - Managing Director"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_gravity="center"
+                                android:justificationMode="inter_word"
+                                android:textSize="16sp"
+                                android:textStyle="bold"
+                                android:layout_marginStart="8dp"/>
+                        </LinearLayout>
+
+                        <!-- Member 1 Description -->
+                        <TextView
+                            android:id="@+id/member1_designation"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="A young, result driven, self-motivated and resourceful managing director with a proven ability and in charge to lead, develop, motivate and strengthen managing team in the Institution. He is a paramount member in reviewing, refining, developing the strategy and direction of College governing body. He is Entrepreneurial by nature and able to see the bigger picture and is responsible for the day-to day running of the Institution with a particular emphasis on developing the Institution in a holistic way. He is involved in planning, organizing and act as a Mentor for Institutional Clubs, Sports and Cultural activities held in the college. He is a good critic of policies and keeps vitalizing them for better future. He is the founder of Santiram Seva Samithi which focuses on Philanthropic works. He is also the Director of Santhiram Chemicals Private Limited and Santhiram Automotives that prioritized targeted growth in areas such as providing research opportunities, employment and ease at agricultural sector."
+                            android:justificationMode="inter_word"
+                            android:textSize="15sp"
+                            android:paddingStart="8dp"
+                            android:paddingEnd="8dp"
+                            android:paddingTop="8dp"
+                            android:paddingBottom="8dp"/>
+
+                    </LinearLayout>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <!-- Administrator 1 -->
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_marginBottom="16dp">
+
+                                <com.google.android.material.imageview.ShapeableImageView
+                                    android:id="@+id/admin1_image"
+                                    android:layout_width="100dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_height="100dp"
+                                    app:shapeAppearanceOverlay="@style/roundedImage"
+                                    android:src="@drawable/principal"
+                                    android:scaleType="centerCrop"/>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_marginStart="16dp">
+
+                                    <TextView
+                                        android:id="@+id/admin1_name"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Dr. T Jayachandra Prasad"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold"/>
+
+                                    <TextView
+                                        android:id="@+id/admin1_designation"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Principal"
+                                        android:textSize="14sp"
+                                        android:layout_marginTop="8dp"/>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <!-- Administrator 2 -->
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_marginBottom="16dp">
+
+                                <com.google.android.material.imageview.ShapeableImageView
+                                    android:id="@+id/admin2_image"
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="5dp"
+                                    app:shapeAppearanceOverlay="@style/roundedImage"
+                                    android:src="@drawable/dof"
+                                    android:scaleType="centerCrop"/>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_marginStart="16dp">
+
+                                    <TextView
+                                        android:id="@+id/admin2_name"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Dr. D.V. Ashok Kumar"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold"/>
+
+                                    <TextView
+                                        android:id="@+id/admin2_designation"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Dean-Admin. and Director Placements"
+                                        android:textSize="14sp"
+                                        android:layout_marginTop="8dp"/>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <!-- Administrator 3 -->
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <com.google.android.material.imageview.ShapeableImageView
+                                    android:id="@+id/admin3_image"
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+
+                                    app:shapeAppearanceOverlay="@style/roundedImage"
+                                    android:src="@drawable/dos"
+                                    android:scaleType="centerCrop"/>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_marginStart="16dp">
+
+                                    <TextView
+                                        android:id="@+id/admin3_name"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Dr. B.Rami Reddy"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold"/>
+
+                                    <TextView
+                                        android:id="@+id/admin3_designation"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Dean - Student Affairs"
+                                        android:textSize="14sp"
+                                        android:layout_marginTop="8dp"/>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+            </ScrollView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="8dp"
+            android:background="#FF5722"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FF5722"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Contact Details Heading -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CONTACT DETAILS"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:background="#FF5722"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"/>
+
+                <!-- Address -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address:"
+                    android:textColor="@android:color/white"
+                    android:background="#FF5722"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nerawada 'X' Roads, Nandyal, Andhra Pradesh 518501"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    android:background="#FF5722"
+                    android:layout_marginTop="8dp"/>
+
+                <!-- Email -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Email:"
+                    android:textColor="@android:color/white"
+                    android:background="#FF5722"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="principal.9@jntua.ac.in"
+                    android:textSize="20dp"
+                    android:textColor="@android:color/white"
+                    android:background="#FF5722"
+                    android:layout_marginTop="8dp"/>
+
+                <!-- Phone Number -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Phone:"
+                    android:textColor="@android:color/white"
+                    android:background="#FF5722"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="+91 85142 75203"
+                    android:textSize="20dp"
+                    android:textColor="@android:color/white"
+                    android:background="#FF5722" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

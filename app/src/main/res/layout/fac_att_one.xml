@@ -1,0 +1,31 @@
+<!-- activity_main.xml -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Dropdown to select the field name -->
+    <Spinner
+        android:id="@+id/dropdown_attendance_field"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="@drawable/custom_edittext"
+        android:padding="15dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/attbranch"/>
+
+    <!-- Button to send selected value to next activity -->
+    <Button
+        android:id="@+id/btn_send"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send"/>
+
+</LinearLayout>

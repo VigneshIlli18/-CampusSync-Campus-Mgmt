@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload Syllabus"
+            android:textSize="30sp"
+            android:id="@+id/uploadtext"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/pdf"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/uploadtext"
+            android:id="@+id/uploadImage"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"/>
+        <Spinner
+            android:id="@+id/spinnerCourse"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@id/uploadImage"
+            android:layout_alignParentTop="false"
+            android:layout_centerVertical="false"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/spinner_bg"
+            android:entries="@array/Subject" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/spinnerCourse"
+            android:layout_alignStart="@id/spinnerCourse"
+            android:layout_marginBottom="-50dp"
+            android:text="Select Course:"
+            android:textSize="11sp"
+            tools:ignore="HardcodedText" />
+
+        <Spinner
+            android:id="@+id/spinnerBranch"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@id/spinnerCourse"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/spinner_bg"
+            android:entries="@array/Branch"
+            tools:layout_editor_absoluteY="144dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/spinnerSem"
+            android:layout_alignStart="@id/spinnerSem"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="-20dp"
+            android:text="Select Semester:"
+            android:textSize="11sp"
+            tools:ignore="HardcodedText" />
+
+        <Spinner
+            android:id="@+id/spinnerSem"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@id/spinnerBranch"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/spinner_bg"
+            android:entries="@array/Subject"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="290dp" />
+
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/spinnerBranch"
+            android:layout_alignStart="@id/spinnerBranch"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="-20dp"
+            android:text="Select Branch:"
+            android:textSize="11sp"
+            tools:ignore="HardcodedText" />
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignEnd="@id/spinnerCourse"
+            android:layout_alignBottom="@id/spinnerCourse"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="9dp"
+            android:background="@drawable/baseline_arrow_drop_down_24" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignEnd="@id/spinnerBranch"
+            android:layout_alignBottom="@id/spinnerBranch"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/baseline_arrow_drop_down_24" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignEnd="@id/spinnerSem"
+            android:layout_alignBottom="@id/spinnerSem"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/baseline_arrow_drop_down_24" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Upload"
+            android:layout_below="@id/spinnerSem"
+            android:backgroundTint="@color/medium_slate_blue"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            app:cornerRadius = "20dp"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- PIN Number Input -->
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextViewPIN"
+        android:background="@drawable/custom_edittext"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter PIN Number"
+        android:completionThreshold="1"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Search Button -->
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="Search"/>
+
+    <!-- Marks Table -->
+    <ScrollView
+        android:id="@+id/scrollViewMarks"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp">
+
+        <TableLayout
+            android:id="@+id/tableLayoutMarks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <!-- Header Row -->
+            <TableRow>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Subject"
+                    android:textStyle="bold"
+                    android:padding="8dp"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Assignment 1"
+                    android:textStyle="bold"
+                    android:padding="8dp"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Assignment 2"
+                    android:textStyle="bold"
+                    android:padding="8dp"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Mid 1"
+                    android:textStyle="bold"
+                    android:padding="8dp"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Mid 2"
+                    android:textStyle="bold"
+                    android:padding="8dp"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Overall Marks"
+                    android:textStyle="bold"
+                    android:padding="8dp"/>
+            </TableRow>
+
+            <!-- Rows for Marks -->
+            <!-- These rows will be populated dynamically -->
+
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

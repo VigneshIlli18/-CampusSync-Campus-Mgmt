@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/white_bg">
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_edittext"
+        android:padding="15dp"
+        android:id="@+id/manageactv"
+        android:hint="Enter Event Name"/>
+
+    <!-- EditText for Registration Link -->
+    <EditText
+        android:id="@+id/editTextRegistrationLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/manageactv"
+        android:hint="Enter Registration Link"
+        android:padding="15dp"
+        android:background="@drawable/custom_edittext"/>
+
+    <!-- ImageView for Additional Image -->
+    <ImageView
+        android:id="@+id/imageViewAdditionalImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/editTextRegistrationLink"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/pdf"
+        android:scaleType="center"
+        android:clickable="true"
+        android:contentDescription="Additional Image" />
+
+    <!-- Button to Add Registration Link -->
+    <Button
+        android:id="@+id/buttonAddRegistrationLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewAdditionalImage"
+        android:text="Add Registration Link"
+        android:layout_marginTop="16dp" />
+
+    <!-- Button to Upload Additional Image -->
+    <Button
+        android:id="@+id/buttonUploadAdditionalImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAddRegistrationLink"
+        android:text="Upload Additional Image"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>

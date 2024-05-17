@@ -1,0 +1,209 @@
+<resources>
+    <string name="app_name">Front</string>
+
+    <string-array name="Branch">
+        <item>"CSE"</item>
+        <item>"CSE-DS"</item>
+        <item>"CSE-BS"</item>
+        <item>"EEE"</item>
+        <item>"ECE"</item>
+        <item>"CIVIL"</item>
+        <item>"MECH"</item>
+    </string-array>
+
+    <string-array name="Subject">
+        <item>Linear Algebra and Advanced Calculus</item>
+        <item>Applied Physics</item>
+        <item>Problem Solving and Programming</item>
+        <item>Basic Electrical Engineering</item>
+        <item>Engineering Drawing</item>
+
+        <!-- Semester 2 -->
+
+        <item>Differential Equations and Vector Calculus</item>
+        <item>Modern Engineering Chemistry</item>
+        <item>Data Structures</item>
+        <item>Mathematical Foundations of Computer Science</item>
+        <item>English for Engineers</item>
+        <item>Environmental Science</item>
+
+        <!-- Semester 2-1 -->
+        <item>Engineering Economics and Accountancy</item>
+        <item>Python Programming</item>
+        <item>Advanced Data Structures Through C++</item>
+        <item>Digital Logic Design</item>
+        <item>Computer Organization and Architecture</item>
+        <item>Aptitude Arithmetic Reasoning and Comprehension</item>
+        <item>Indian Heritage and Culture</item>
+
+        <!-- Semester 2-2 -->
+
+        <item>Java Programming</item>
+        <item>Database Management Systems</item>
+        <item>Formal Languages and Automata Theory</item>
+        <item>Design and Analysis of Algorithms</item>
+        <item>Probability and Statistics</item>
+        <item>User Interface Technologies</item>
+
+        <!-- Semester 3-1 -->
+
+        <item>Computer Networks</item>
+        <item>Operating Systems</item>
+        <item>Software Engineering</item>
+        <item>Full Stack Application Development</item>
+        <item>Compiler Design</item>
+        <item>Cloud Foundations</item>
+        <item>Constitution of India</item>
+
+        <!-- Semester 3-2 -->
+
+        <item>Software Testing Methodologies and Tools</item>
+        <item>Computer Graphics</item>
+        <item>Big Data Analytics</item>
+        <item>Android Programming</item>
+        <item>Professional Ethics and Soft Skills</item>
+
+        <!-- Semester 4-1 -->
+
+        <item>Artificial Intelligence</item>
+        <item>Cyber Security</item>
+        <item>Linux System Administration</item>
+        <item>Block Chain Technologies</item>
+        <item>Management Science</item>
+
+    </string-array>
+
+    <string-array name="BranchANDSem">
+
+
+        <!-- CSE Branch -->
+        <item>CSE 1-1</item>
+        <item>CSE 1-2</item>
+        <item>CSE 2-1</item>
+        <item>CSE 2-2</item>
+        <item>CSE 3-1</item>
+        <item>CSE 3-2</item>
+        <item>CSE 4-1</item>
+        <item>CSE 4-2</item>
+
+        <!-- CSE-DS Branch -->
+        <item>CSE-DS 1-1</item>
+        <item>CSE-DS 1-2</item>
+        <item>CSE-DS 2-1</item>
+        <item>CSE-DS 2-2</item>
+        <item>CSE-DS 3-1</item>
+        <item>CSE-DS 3-2</item>
+        <item>CSE-DS 4-1</item>
+        <item>CSE-DS 4-2</item>
+
+        <!-- CSE-BS Branch -->
+        <item>CSE-BS 1-1</item>
+        <item>CSE-BS 1-2</item>
+        <item>CSE-BS 2-1</item>
+        <item>CSE-BS 2-2</item>
+        <item>CSE-BS 3-1</item>
+        <item>CSE-BS 3-2</item>
+        <item>CSE-BS 4-1</item>
+        <item>CSE-BS 4-2</item>
+
+        <!-- CSE-AI&ML Branch -->
+        <item>CSE-AI and ML 1-1</item>
+        <item>CSE-AI and ML 1-2</item>
+        <item>CSE-AI and ML 2-1</item>
+        <item>CSE-AI and ML 2-2</item>
+        <item>CSE-AI and ML 3-1</item>
+        <item>CSE-AI and ML 3-2</item>
+        <item>CSE-AI and ML 4-1</item>
+        <item>CSE-AI and ML 4-2</item>
+
+        <!-- CE Branch -->
+        <item>CE 1-1</item>
+        <item>CE 1-2</item>
+        <item>CE 2-1</item>
+        <item>CE 2-2</item>
+        <item>CE 3-1</item>
+        <item>CE 3-2</item>
+        <item>CE 4-1</item>
+        <item>CE 4-2</item>
+
+        <!-- MECH Branch -->
+        <item>MECH 1-1</item>
+        <item>MECH 1-2</item>
+        <item>MECH 2-1</item>
+        <item>MECH 2-2</item>
+        <item>MECH 3-1</item>
+        <item>MECH 3-2</item>
+        <item>MECH 4-1</item>
+        <item>MECH 4-2</item>
+
+        <!-- EEE Branch -->
+        <item>EEE 1-1</item>
+        <item>EEE 1-2</item>
+        <item>EEE 2-1</item>
+        <item>EEE 2-2</item>
+        <item>EEE 3-1</item>
+        <item>EEE 3-2</item>
+        <item>EEE 4-1</item>
+        <item>EEE 4-2</item>
+
+        <!-- ECE Branch -->
+        <item>ECE 1-1</item>
+        <item>ECE 1-2</item>
+        <item>ECE 2-1</item>
+        <item>ECE 2-2</item>
+        <item>ECE 3-1</item>
+        <item>ECE 3-2</item>
+        <item>ECE 4-1</item>
+        <item>ECE 4-2</item>
+
+    </string-array>
+
+    <string-array name="Month">
+        <item>"January"</item>
+        <item>"February"</item>
+        <item>"March"</item>
+        <item>"April"</item>
+        <item>"May"</item>
+        <item>"June"</item>
+        <item>"July"</item>
+        <item>"August"</item>
+        <item>"September"</item>
+        <item>"October"</item>
+        <item>"November"</item>
+        <item>"December"</item>
+    </string-array>
+    <string-array name="YearandSem">
+        <item>"1-1"</item>
+        <item>"1-2"</item>
+        <item>"2-1"</item>
+        <item>"2-2"</item>
+        <item>"3-1"</item>
+        <item>"3-2"</item>
+        <item>"4-1"</item>
+        <item>"4-2"</item>
+    </string-array>
+
+    <string-array name="marksSub">
+        <item>Select Subject</item>
+        <item>subject1</item>
+        <item>subject2</item>
+        <item>subject3</item>
+        <item>subject4</item>
+    </string-array>
+    <string-array name="term_options">
+        <item>Select Term</item>
+        <item>mid1</item>
+        <item>mid2</item>
+        <item>assignment1</item>
+        <item>assignment2</item>
+
+    </string-array>
+
+    <string-array name="attbranch">
+        <item>select month</item>
+        <item>month1</item>
+        <item>month2</item>
+        <item>month3</item>
+    </string-array>
+
+    </resources>

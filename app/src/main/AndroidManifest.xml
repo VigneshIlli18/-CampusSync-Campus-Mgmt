@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="RGMCET"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Front"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".welcomeActivity"/>
+        <activity android:name=".stuSignupActivity"/>
+        <activity android:name=".facSignupActivity"/>
+        <activity android:name=".LoginActivity"/>
+        <activity android:name=".activityStudentDashboard"/>
+        <activity android:name=".activityFacultyDashboard"/>
+        <activity android:name=".studentDashboard.Activityaboutus"/>
+        <activity android:name=".studentDashboard.Activityattendance"/>
+        <activity android:name=".studentDashboard.Activityevents"/>
+        <activity android:name=".studentDashboard.Activitymarks"/>
+        <activity android:name=".studentDashboard.Activitynotes"/>
+        <activity android:name=".studentDashboard.Activityprevpapers"/>
+        <activity android:name=".studentDashboard.ActivityUpdates"/>
+        <activity android:name=".studentDashboard.Activitysyllabus"/>
+        <activity android:name=".studentDashboard.Activitytimetable"/>
+        <activity android:name=".studentDashboard.Activityuserprofile"/>
+        <activity android:name=".studentDashboard.ActivityViewNotes"/>
+        <activity android:name=".studentDashboard.ActivityViewTimetable"/>
+        <activity android:name=".studentDashboard.ActivityViewSyllabus"/>
+        <activity android:name=".studentDashboard.ActivityViewPrevPapers"/>
+        <activity android:name=".facultyDashboard.ActivityFacUserProfile"/>
+        <activity android:name=".facultyDashboard.ActivityFacUploadNotes"/>
+        <activity android:name=".facultyDashboard.ActivityFacUploadTimetable"/>
+        <activity android:name=".facultyDashboard.ActivityFacUploadPrevPapers"/>
+        <activity android:name=".facultyDashboard.ActivityFacUploadSyllabus"/>
+        <activity android:name=".facultyDashboard.ActivityFacUploadEvents"/>
+        <activity android:name=".facultyDashboard.Activity_fac_events"/>
+        <activity android:name=".facultyDashboard.ActivityFacManageEvents"/>
+        <activity android:name=".facultyDashboard.ActivityFacNotice"/>
+        <activity android:name=".facultyDashboard.Activity_marks"/>
+        <activity android:name=".facultyDashboard.Activityentermarks"/>
+        <activity android:name=".facultyDashboard.ActivityFacAttendance"/>
+        <activity android:name=".facultyDashboard.ActivityAttendance"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,68 @@
+<!-- activity_upload_notice.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <EditText
+        android:padding="15dp"
+        android:background="@drawable/custom_edittext"
+        android:id="@+id/noticeDepartmentEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Department"
+        android:inputType="text"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:background="@drawable/custom_edittext"
+        android:id="@+id/noticeTimeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Time"
+        android:inputType="text"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:background="@drawable/custom_edittext"
+        android:id="@+id/noticeDateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date"
+        android:inputType="text"/>
+
+    <!-- Existing title and description fields -->
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:background="@drawable/custom_edittext"
+        android:id="@+id/noticeTitleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Notice Title"
+        android:inputType="text"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:background="@drawable/custom_edittext"
+        android:id="@+id/noticeDescriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Notice Description"
+        android:inputType="textMultiLine"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/uploadNoticeButton"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Notice"/>
+</LinearLayout>

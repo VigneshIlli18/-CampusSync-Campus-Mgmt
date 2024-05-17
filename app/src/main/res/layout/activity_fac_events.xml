@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Event Details Form -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/eventDetailsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Event Name -->
+            <EditText
+                android:id="@+id/editTextEventName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:background="@drawable/custom_edittext"
+                android:hint="Event Name" />
+
+            <!-- Event Description -->
+            <EditText
+                android:id="@+id/editTextEventDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:background="@drawable/custom_edittext"
+                android:hint="Event Description"
+                android:layout_marginTop="8dp"/>
+
+            <!-- Event Date -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Event Date"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"/>
+
+            <DatePicker
+                android:id="@+id/datePicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- Event Location -->
+            <EditText
+                android:id="@+id/editTextEventLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Event Location"
+                android:padding="15dp"
+                android:background="@drawable/custom_edittext"
+                android:layout_marginTop="8dp"/>
+
+            <!-- Registration Link -->
+            <EditText
+                android:id="@+id/editTextRegistrationLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Registration Link"
+                android:padding="15dp"
+                android:background="@drawable/custom_edittext"
+                android:layout_marginTop="8dp"/>
+
+            <!-- Event Image -->
+            <ImageView
+                android:id="@+id/imageViewEvent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pdf"
+                android:scaleType="fitCenter"
+                android:layout_marginTop="8dp"
+                android:clickable="true"
+                android:onClick="onImageClick"/>
+
+            <!-- Create Event Button -->
+            <Button
+                android:id="@+id/buttonCreateEvent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Create Event"
+                android:layout_marginTop="16dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
